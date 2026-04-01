@@ -44,7 +44,7 @@ nav {
 .nav-btn {
     background: hsl(142, 71%, 45%);
     color: #fff;
-    padding: 0.35rem 1rem;
+    padding: 0.5rem 1rem;
     border-radius: 6px;
     text-decoration: none;
     font-weight: 600;
@@ -89,7 +89,7 @@ nav {
 
 .hero-compatible {
     font-size: 0.8rem;
-    color: #777;
+    color: #8a8a8a;
     margin-bottom: 2.5rem;
     letter-spacing: 0.05em;
     text-transform: uppercase;
@@ -492,7 +492,7 @@ footer {
 }
 
 footer p {
-    color: #666;
+    color: #949494;
     font-size: 0.75rem;
 }
 
@@ -505,7 +505,7 @@ footer p {
 }
 
 footer a {
-    color: #666;
+    color: #949494;
     font-size: 0.75rem;
     text-decoration: none;
     transition: color 0.3s;
