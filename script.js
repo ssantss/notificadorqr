@@ -1,6 +1,15 @@
 // ========== CONFIG ==========
-const WHATSAPP_NUMBER = '573000000000'
-const WHATSAPP_MESSAGE = 'Hola, quiero activar NotificadorQR en mi negocio'
+const CONFIG = {
+    appName: 'NotificadorQR',
+    whatsappNumber: '573003060003',
+    whatsappMessage: 'Hola, quiero activar NotificadorQR en mi negocio'
+}
+
+// Apply config to all WhatsApp links
+const waUrl = `https://wa.me/${CONFIG.whatsappNumber}?text=${encodeURIComponent(CONFIG.whatsappMessage)}`
+document.querySelectorAll('a[href*="wa.me"]').forEach(link => {
+    link.href = waUrl
+})
 
 // ========== SMOOTH SCROLL ==========
 document.querySelectorAll('a[href^="#"]').forEach(anchor => {
