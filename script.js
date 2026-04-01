@@ -1,8 +1,8 @@
 // ========== CONFIG ==========
 const CONFIG = {
-    appName: 'NotificadorQR',
+    appName: 'NotificacionQR',
     whatsappNumber: '573003060003',
-    whatsappMessage: 'Hola, quiero activar NotificadorQR en mi negocio'
+    whatsappMessage: 'Hola, quiero activar NotificacionQR en mi negocio'
 }
 
 // Apply config to all WhatsApp links
